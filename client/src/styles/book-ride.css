@@ -1,0 +1,45 @@
+.book-ride {
+  min-height: calc(100vh - 80px);
+  background-color: #f5f5f5;
+  padding: 40px 20px;
+}
+
+.book-ride h1 {
+  margin-bottom: 30px;
+}
+
+.booking-card {
+  background: white;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.booking-card form {
+  margin-bottom: 30px;
+}
+
+.ride-info {
+  background-color: #f0f8ff;
+  border-left: 4px solid #007bff;
+  padding: 20px;
+  border-radius: 4px;
+}
+
+.ride-info h3 {
+  color: #007bff;
+  margin-bottom: 15px;
+}
+
+.ride-info ul {
+  list-style: none;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.ride-info li {
+  font-size: 15px;
+}
